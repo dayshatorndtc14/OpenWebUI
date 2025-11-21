@@ -26,7 +26,7 @@
 ยังไม่มี HA
 
 **Source Code Representative:**  
-ในส่วนของ server ที่เสนอ จะมี upgrade ตัวใหม่ R260, upgrade HDD มากกว่า 16GB, และ upgrade storage ด้วย
+ในส่วนของ server ที่เสนอ จะมี upgrade ตัวใหม่ R260, upgrade HDD มากกว่า 16GB *(หมายเหตุ: อาจหมายถึง RAM หรือต้องยืนยันข้อมูลเพิ่มเติม)*, และ upgrade storage ด้วย
 
 **BC (PM Team):**  
 แจ้งว่า จะมีในส่วนของ switch ที่ใช้งานได้ตามปกติ แต่เมื่อ reset password ไปแล้ว เหมือนว่าจะไม่จำค่าการตั้งค่า
@@ -78,7 +78,7 @@ Power server มี single หรือไม่? **(รอการยืนย
 
 #### 2. Server Infrastructure
 - **New Server Model:** R260
-- **Storage Upgrade:** HDD > 16GB
+- **Storage/Memory Upgrade:** HDD > 16GB *(Note: Specification needs clarification - may refer to RAM or storage capacity)*
 - **Additional:** Storage upgrade included
 - **Quantity:** 1 unit
 - **High Availability:** ไม่มี HA ในระยะนี้
@@ -120,6 +120,7 @@ Power server มี single หรือไม่? **(รอการยืนย
 
 | Action Item | Assignee | Priority | Deadline | Status |
 |-------------|----------|----------|----------|--------|
+| ยืนยันข้อมูล HDD/RAM specification สำหรับ server R260 (ชี้แจง > 16GB หมายถึง RAM หรือ storage) | Source Code Team | High | รอการยืนยัน | Pending |
 | ยืนยัน power configuration (single/redundant) สำหรับ server R260 | Source Code Team | High | รอการยืนยัน | Pending |
 | สอบถามและแก้ไขปัญหา switch ที่ไม่บันทึก configuration หลัง password reset | BC (PM Team) / NT (Network Team) | High | รอกำหนด | Open |
 | จัดทำเอกสารรายละเอียดทางเทคนิคของ R260 server และการรองรับ ESXi 8.0 | Source Code Team | Medium | รอกำหนด | Open |
@@ -158,11 +159,12 @@ Power server มี single หรือไม่? **(รอการยืนย
 
 ## 6. Dependencies / บล็อกเกอร์ / สิ่งที่ต้องรอ
 
-1. **รอการยืนยัน:** Power configuration details สำหรับ server R260
-2. **รอการแก้ไข:** Switch configuration persistence issue
-3. **รอเอกสาร:** Technical specifications จาก Source Code สำหรับ R260, WIFI6 AP, และ Wireless Controller
-4. **รอการตัดสินใจ:** แผนการต่ออายุประกันอุปกรณ์
-5. **รอการประเมิน:** ความจำเป็นและ timeline สำหรับการเพิ่ม HA
+1. **รอการยืนยัน:** HDD/RAM specification clarification (> 16GB refers to RAM or storage?)
+2. **รอการยืนยัน:** Power configuration details สำหรับ server R260
+3. **รอการแก้ไข:** Switch configuration persistence issue
+4. **รอเอกสาร:** Technical specifications จาก Source Code สำหรับ R260, WIFI6 AP, และ Wireless Controller
+5. **รอการตัดสินใจ:** แผนการต่ออายุประกันอุปกรณ์
+6. **รอการประเมิน:** ความจำเป็นและ timeline สำหรับการเพิ่ม HA
 
 ---
 

@@ -50,7 +50,7 @@ These documents serve as:
 
 ## Document Standards
 
-All meeting documents follow the agent instructions defined in `.github/agents/` and include:
+All meeting documents follow standardized format guidelines and include:
 - Professional tone
 - Accurate transcription
 - Clear structure
